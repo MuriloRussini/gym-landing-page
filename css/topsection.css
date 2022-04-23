@@ -1,0 +1,27 @@
+#top-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 0;
+  align-items: center;
+}
+
+#top-section .img .bg-img {
+  background: url(../img/woman-squatting.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: var(--clr-dark);
+  filter: grayscale();
+  width: 100%;
+  max-width: 480px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+#top-section .info h1{
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
+}
