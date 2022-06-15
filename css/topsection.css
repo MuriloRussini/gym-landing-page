@@ -31,7 +31,7 @@
 /* Typography */
 #top-section .info h1{
   font-family: var(--ff-secondary);
-  font-weight: var(--fw-lightbold);
+  font-weight: var(--fw-light);
   color: var(--clr-light);
   font-size: var(--fs-h1);
   text-align: left;

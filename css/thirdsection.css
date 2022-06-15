@@ -1,0 +1,30 @@
+#third-section .img .bg-img {
+  background: url(https://www.nuffieldhealth.com/local/df/35/fa64d99646dea9d94c74c38572d9/manchester-printworks-fitness-and-wellbeing-gym-floor.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 350px;
+  width: 100%;
+  background-color: var(--clr-dark);
+  filter: grayscale();
+}
+
+#third-section .copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+#third-section p {
+  color: var(--clr-light);
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-breg);
+  font-size: var(--fs-body);
+  border: 2px solid red;
+  max-width: 80%;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  text-align: center;
+}

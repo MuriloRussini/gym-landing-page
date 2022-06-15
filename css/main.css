@@ -1,7 +1,7 @@
 @import "/css/reset.css";
 @import "/css/topsection.css";
 @import "/css/midsection.css";
-
+@import "/css/thirdsection.css";
 :root {
   --ff-primary: 'Montserrat', sans-serif;
   --ff-secondary: 'Roboto', monospace;

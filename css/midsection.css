@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 400px;
+  width: 100%;
 }
 
 .countdown {
@@ -21,6 +23,7 @@
   font-size: var(--fw-bold);
   min-width: 110px;
   padding: 15px 5px 10px;
+  margin: 50px 50px;
   border-radius: 4px;
   color: var(--clr-dark);
   font-size: var(--fs-h3);
@@ -30,4 +33,32 @@
   font-size: var(--fs-body);
   font-weight: var(--fw-breg);
   color: var(--clr-dark);
+}
+
+#mid-section .container .btn {
+  padding: 30px;
+  background: var(--clr-light);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#mid-section .container .btn:hover{
+  transform: scale(1.1);
+}
+
+
+/* TYPOGRAPHY */
+
+#mid-section .container h4{
+  color: var(--clr-light);
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-breg);
+  font-size: var(--fs-h2);
+}
+
+#mid-section .container a{
+  color: var(--clr-dark);
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-body);
 }
