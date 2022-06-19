@@ -1,0 +1,52 @@
+#gear-section .container {
+  width: 100%;
+  height: 400px;
+  background-color: var(--clr-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gear-section .divider{
+  height: 5px;
+  width: 160px;
+  background-color: var(--clr-red);
+  margin: 40px auto;
+  display: block;
+}
+
+#gear-section .g-section--container{
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+
+#gear-section .top-copy h2{
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-lightbold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-light);
+  margin-bottom: 10px;
+}
+
+#gear-section .bottom-copy h2{
+  font-size: var(--fs-h2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-light);
+  font-weight: var(--fw-lightbold);
+}
+
+#gear-section .top-copy p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs-h3);
+  color: var(--clr-light);
+  font-weight: var(--fw-breg);
+}
