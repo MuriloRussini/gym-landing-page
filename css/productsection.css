@@ -1,0 +1,48 @@
+#products-section .container{
+  width: 100%;
+  background-color: var(--clr-grey);
+  color: var(--clr-light);
+}
+
+/* Grid stuff */
+#products-section .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 1.5rem; */
+}
+
+#products-section .product-container{
+  background-color: var(--clr-dark);
+  margin: 2rem;
+}
+
+#products-section .p-info{
+  border: 2px solid red;
+}
+
+#products-section .product-image {
+  height: 500px;
+  width: 400px;
+  border: 2px solid green;
+  margin: auto;
+}
+
+#products-section .product-description{
+  text-align: left;
+  border: 2px solid blue;
+}
+
+/* Typography */
+
+#products-section h3{
+  font-size: var(--fs-ph);
+  font-weight: var(--fw-lightbold);
+}
+
+#products-section .value{
+  font-size: var(--fs-pvalue);
+}
+
+#products-section .description{
+  font-size: var(--fs-body);
+}

@@ -3,6 +3,7 @@
 @import "/css/midsection.css";
 @import "/css/thirdsection.css";
 @import "/css/gearsection.css";
+@import "/css/productsection.css";
 :root {
   --ff-primary: 'Montserrat', sans-serif;
   --ff-secondary: 'Roboto', monospace;
@@ -21,8 +22,10 @@
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
+  --fs-ph: 1.75rem;
   --fs-h3: 1.5rem;
   --fs-body: 1.25rem;
+  --fs-pvalue: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, .5);
 }
